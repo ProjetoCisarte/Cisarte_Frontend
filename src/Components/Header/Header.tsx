@@ -4,12 +4,22 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "./Header.styles";
 import Logo from "../../assets/cisarte-logo.png";
+import { createGlobalStyle } from 'styled-components'
 
 
 function Header() {
 
+  const GlobalStyle = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+`;
+
   return (
-    <Navbar collapseOnSelect expand="lg" style={{"boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)", "padding": "15px 0px"}}>
+    <Navbar collapseOnSelect expand="lg" style={{"boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)" , "padding": "15px 0px"}}>
+      <GlobalStyle />
         <Container>
         <img src={Logo} alt="Logo da Cisarte"></img>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
