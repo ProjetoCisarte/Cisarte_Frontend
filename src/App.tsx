@@ -1,13 +1,14 @@
 import './App.css'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
+import Footer from './components/molecules/footer/footer'
+import Header from './components/molecules/header/header'
+
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Footer />
+    <Header />
+    <Footer />
     </>
   )
 }

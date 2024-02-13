@@ -1,9 +1,8 @@
-import "./Footer.styles";
-import Logo from "../../assets/cisarte-logo.png";
-import LogoFacebook from "../../assets/logo-facebook.svg";
-import LogoInstagram from "../../assets/logo-instagram.svg";
-import LogoLinkedin from "../../assets/logo-linkedin.svg";
-import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./Footer.styles";
+import Logo from "../../../public/assets/icons/cisarte-logo.png";
+import LogoFacebook from "../../../public/assets/icons/logo-facebook.svg";
+import LogoInstagram from "../../../public/assets/icons/logo-instagram.svg";
+import LogoLinkedin from "../../../public/assets/icons/logo-linkedin.svg";
+import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer.styles";
 // import { Link } from "react-router-dom";
 
 function Footer() {

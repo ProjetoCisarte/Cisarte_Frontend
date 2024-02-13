@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from "./Header.styles";
-import Logo from "../../assets/cisarte-logo.png";
+import { Link } from "./header.styles";
+import Logo from "../../../public/assets/icons/cisarte-logo.png";
 import { createGlobalStyle } from 'styled-components'
 
 
