@@ -1,5 +1,5 @@
 import './App.css'
-import Footer from './components/molecules/footer/footer'
+import Inputs from './components/atoms/inputs/inputs'
 import Header from './components/molecules/header/header'
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Header />
-    <Footer />
+    <Inputs />
     </>
   )
 }
