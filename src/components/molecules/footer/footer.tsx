@@ -1,14 +1,7 @@
-<<<<<<< Updated upstream
-import Logo from "../../../../public/assets/icons/cisarte-logo.png";
-import LogoFacebook from "../../../../public/assets/icons/logo-facebook.svg";
-import LogoInstagram from "../../../../public/assets/icons/logo-instagram.svg";
-import LogoLinkedin from "../../../../public/assets/icons/logo-linkedin.svg";
-=======
 import Logo from "/public/assets/icons/cisarte-logo.png";
 import LogoFacebook from "public/assets/icons/logo-facebook.svg";
 import LogoInstagram from "public/assets/icons/logo-instagram.svg";
 import LogoLinkedin from "public/assets/icons/logo-linkedin.svg";
->>>>>>> Stashed changes
 import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer.styles";
 // import { Link } from "react-router-dom";
 

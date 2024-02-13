@@ -3,11 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "./header.styles";
-<<<<<<< Updated upstream
-import Logo from "../../../../public/assets/icons/cisarte-logo.png";
-=======
 import Logo from "/public/assets/icons/cisarte-logo.png";
->>>>>>> Stashed changes
 import { createGlobalStyle } from 'styled-components'
 
 
