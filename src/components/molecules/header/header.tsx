@@ -7,7 +7,7 @@ import Logo from "../../../public/assets/icons/cisarte-logo.png";
 import { createGlobalStyle } from 'styled-components'
 
 
-function Header() {
+const Header = () => {
 
   const GlobalStyle = createGlobalStyle`
   * {

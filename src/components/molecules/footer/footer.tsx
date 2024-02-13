@@ -5,7 +5,7 @@ import LogoLinkedin from "../../../public/assets/icons/logo-linkedin.svg";
 import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer.styles";
 // import { Link } from "react-router-dom";
 
-function Footer() {
+const Footer = () => {
     return(
         <>
         <footer>

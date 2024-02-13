@@ -1,6 +1,7 @@
 import './App.css'
-import Inputs from './components/atoms/inputs/inputs'
 import Header from './components/molecules/header/header'
+import InputsTextLarge from './components/molecules/inputsTextLarge/inputsTextLarge'
+import InputsTextSmall from './components/molecules/inputsDateSmall/inputsDateSmall'
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
     <Header />
-    <Inputs />
+    <InputsTextLarge NameLabel='Nome' Placeholder='Digite seu nome'/>
+    <InputsTextSmall NameLabel='Data de nascimento'/>
     </>
   )
 }
