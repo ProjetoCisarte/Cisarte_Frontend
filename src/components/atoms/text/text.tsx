@@ -1,5 +1,5 @@
-import { CustomSpan } from "../text/textStyles";
-import { IText } from "./textTypes";
+import { CustomSpan } from "./text-styles";
+import { IText } from "./text-types";
 
 export const Text = ({
   color,
@@ -9,7 +9,6 @@ export const Text = ({
   return (
     <CustomSpan
       transitionTiming={transitionTiming}
-
       color={color}
     >
       {children}

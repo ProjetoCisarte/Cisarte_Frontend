@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
-import { colorsMapping } from "../text/colorsMapping";
-import { IStylesProps } from "../text/textTypes";
+import { colorsMapping } from "./colors-mapping";
+import { IStylesProps } from "./text-types";
 
 
 export const CustomSpan = styled.span<IStylesProps>`

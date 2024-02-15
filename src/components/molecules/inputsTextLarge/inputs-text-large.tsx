@@ -1,4 +1,4 @@
-import { InputsContainer } from "./inputsTextLarge.styles"
+import { InputsContainer } from "./inputs-text-large.styles"
 
 interface InputsTextLargeProps {
     NameLabel: string;

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { TColors } from "../text/colorsMapping";
+import { TColors } from "./colors-mapping";
 
 
 export interface IText {

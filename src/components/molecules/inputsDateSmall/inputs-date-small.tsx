@@ -1,4 +1,4 @@
-import { InputSmallContainer } from "./inputsDateSmall.styles"
+import { InputSmallContainer } from "./inputs-date-small.styles"
 
 interface InputDateSmallProps {
     NameLabel: string;

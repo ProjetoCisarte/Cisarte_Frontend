@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardConteiner = styled.div`
+export const CardConteiner = styled.aside`
 width: 22.4rem;
 height: 19rem;
 background-color: #fff;
