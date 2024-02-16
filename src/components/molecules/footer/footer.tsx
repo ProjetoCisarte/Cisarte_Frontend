@@ -1,7 +1,3 @@
-import Logo from "/public/assets/icons/cisarte-logo.png";
-import LogoFacebook from "public/assets/icons/logo-facebook.svg";
-import LogoInstagram from "public/assets/icons/logo-instagram.svg";
-import LogoLinkedin from "public/assets/icons/logo-linkedin.svg";
 import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer-styles";
 // import { Link } from "react-router-dom";
 
@@ -12,7 +8,7 @@ const Footer = () => {
             <LineYellow />
             <ContainerInformation>
                 <LogoFooter>
-                    <img src={Logo} alt="Logo da Cisarte"></img>
+                    <img src="/public/assets/icons/cisarte-logo.png" alt="Logo da Cisarte"></img>
                 </LogoFooter>
                 <ContainerLinksFooter>
                     <LinksFooter>
@@ -34,9 +30,9 @@ const Footer = () => {
                             <p>projeto@cisarte.org.br</p>
                         </a>
                         <IconsFooter>
-                            <img src={LogoFacebook} alt="Ícone do Facebook preto" />
-                            <img src={LogoLinkedin} alt="Ícone do Linkedin preto" />
-                            <img src={LogoInstagram} alt="Ícone do Instagram preto" />
+                            <img src="public/assets/icons/logo-facebook.svg" alt="Ícone do Facebook preto" />
+                            <img src="public/assets/icons/logo-linkedin.svg" alt="Ícone do Linkedin preto" />
+                            <img src="public/assets/icons/logo-instagram.svg" alt="Ícone do Instagram preto" />
                         </IconsFooter>
                     </LinksFooter>
                 </ContainerLinksFooter>
