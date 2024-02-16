@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TitleAndText = styled.div `
     text-align: center;
-    padding: 2rem 0px;
+    padding: 2.5rem 0px;
     max-width: 700px;
     margin: 0 auto;
     h5 {
@@ -13,6 +13,7 @@ export const TitleAndText = styled.div `
     h2 {
         font-size: 2rem;
     }
+    
     @media screen and (max-width: 806px) {
         max-width: 540px;
         padding: 1.4rem 0px;
@@ -121,4 +122,13 @@ export const ContainerForms = styled.div `
         font-size: 1.8rem;
     }
     }
+`;
+
+export const ContainerVonlunteersCards  = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 1360px;
+    margin: 0 auto;
 `;

@@ -1,10 +1,12 @@
-import Button from "../../components/atoms/button/button";
+import Header from "../../components/molecules/header/header"
 import { Banner } from "../../components/molecules/banner/banner"
 import { CardKnow } from "../../components/molecules/cards/cards";
-import Header from "../../components/molecules/header/header"
 import InputsTextLarge from "../../components/molecules/inputsTextLarge/inputs-text-large";
 import InputsTextarea from "../../components/molecules/inputsTextarea/inputs-textarea";
-import { ContainerCards, ContainerForms, TitleAndText } from "./voluntary-styles";
+import Button from "../../components/atoms/button/button";
+import CardsVolunteers from "../../components/molecules/cardsVolunteers/cards-volunteers";
+import Footer from "../../components/molecules/footer/footer";
+import { ContainerCards, ContainerForms, ContainerVonlunteersCards, TitleAndText } from "./voluntary-styles";
 
 
 const Voluntary = () => {
@@ -46,6 +48,24 @@ const Voluntary = () => {
                 </form>
             </ContainerForms>
 
+            <TitleAndText>
+                <h2>Conheça os voluntários que realizaram a construção do site e plataforma</h2>
+            </TitleAndText>
+
+            <ContainerVonlunteersCards>
+                <CardsVolunteers img="public/assets/imgs/ft-vitoria.png" Title="Vitória Florêncio" SubTitle="Front-end e UI/UX" Alt="Foto da Vitória Florêncio" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Anthony Thomas" SubTitle="Full-Stack" Alt="Foto do Anthony Thomas" />
+                <CardsVolunteers img="public/assets/imgs/ft-lilian.png" Title="Lilian Carvalho" SubTitle="Front-end e UI/UX" Alt="Foto da Lilian Carvalho" />
+                <CardsVolunteers img="public/assets/imgs/ft-lais.png" Title="Lais Carvalho" SubTitle="Front-end e UI/UX" Alt="Foto da Lais Carvalho" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Matheus Passos" SubTitle="Full-Stack" Alt="Foto do Matheus Passos" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Rafaela Moura" SubTitle="Full-Stack" Alt="Foto da Rafaela Moura" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Diogo Duarte" SubTitle="Full-Stack" Alt="Foto do Diogo Duarte" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Marcelo Aggio" SubTitle="Full-Stack" Alt="Foto do Marcelo Aggio" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Jhenifer Ribeiro" SubTitle="Banco de dados" Alt="Foto da Jhenifer Ribeiro" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Joabe Ferri" SubTitle="Front-End" Alt="Foto do Joabe Ferri" />
+                <CardsVolunteers img="public/assets/imgs/ft-aleatorio.png" Title="Heitor Lamar" SubTitle="Fotógrafo" Alt="Foto do Heitor Lamar" />
+            </ContainerVonlunteersCards>
+            <Footer />
         </div>
         </>
     )
