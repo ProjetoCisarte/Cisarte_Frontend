@@ -1,5 +1,5 @@
 import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer-styles";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -13,10 +13,18 @@ const Footer = () => {
                     <ContainerLinksFooter>
                         <LinksFooter>
                             <h3>Navegação</h3>
+                            <Link to="/">
                             <p>Quem somos</p>
+                            </Link>
+                            <Link to="/">
                             <p>Atividades</p>
+                            </Link>
+                            <Link to="/">
                             <p>Doação</p>
+                            </Link>
+                            <Link to="/voluntariado">
                             <p>Seja um voluntário</p>
+                            </Link>
                         </LinksFooter>
                         <LinksFooter>
                             <h3>Fale Conosco</h3>
