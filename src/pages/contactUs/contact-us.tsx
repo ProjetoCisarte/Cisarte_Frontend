@@ -15,7 +15,7 @@ const ContactUs = () => {
 
         <Banner img="/public/assets/background/contact-us-fund.jpg" description="Fale conosco"/>
 
-        <FormStructure title="Como podemos ajudar?">
+        <FormStructure title="Como podemos ajudar?" templateId="template_x5u8fi8">
             <InputsTextLarge Type="text" NameLabel="Nome" Placeholder="Digite seu nome" Name="name"/>
             <InputsTextLarge Type="email" NameLabel="Email" Placeholder="Digite seu email" Name="email"/>
             <InputsTextLarge Type="number" NameLabel="Telefone" Placeholder="Ex: (00) 00000-0000" Name="numero"/>
