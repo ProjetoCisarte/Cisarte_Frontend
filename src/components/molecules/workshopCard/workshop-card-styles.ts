@@ -17,7 +17,7 @@ justify-content: center;
 align-items: center;
 cursor: pointer;
 
-`
+`;
 
 export const TextDescription = styled.h4`
 font-size: 1.8rem;
@@ -29,4 +29,4 @@ font-weight: 700;
 border: 4px solid #fff;
 border-left:none ;
 border-right: none;
-`
+`;
