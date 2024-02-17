@@ -29,6 +29,9 @@ npm install react-bootstrap bootstrap
 ```
 npm install emailjs-com
 ```
+```
+npm install react-input-mask
+```
 <br/>
 
 <h2> ✅ Rodando o projeto:</h2>
