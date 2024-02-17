@@ -37,7 +37,7 @@ const Voluntary = () => {
             <CardKnow icon="" alt="" title="Programa de estágio" text="Contribua com habilidades administrativas, auxiliando nos atendimentos, organização de documentos, coordenação de eventos ou realizando tarefas de escritório" showButton={false} />
             </ContainerCards>
 
-            <FormStructure title="Quero ser voluntário">
+            <FormStructure title="Quero ser voluntário" templateId="template_qrkbpc9">
                     <InputsTextLarge Type="text" NameLabel="Nome" Placeholder="Digite seu nome" Name="name"/>
                     <InputsTextLarge Type="email" NameLabel="Email" Placeholder="Digite seu email" Name="email"/>
                     <InputsTextLarge Type="number" NameLabel="Telefone" Placeholder="Ex: (00) 00000-0000" Name="numero"/>

@@ -13,6 +13,10 @@ export const ContainerForms = styled.div `
     border: solid 1px ${({ theme }) => theme.colors.green};
     box-shadow: ${({ theme }) => theme.colors.green} 35px -30px 0px;
 
+    p {
+        font-weight: bold;
+    }
+
     h2 {
         color: ${({ theme }) => theme.colors.yellow};
         font-weight: bold;
