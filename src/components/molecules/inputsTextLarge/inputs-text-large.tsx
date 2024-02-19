@@ -18,7 +18,7 @@ const InputsTextLarge = ({ NameLabel, Placeholder, Type, Name }: InputsTextLarge
             {(inputProps: any) => <input {...inputProps} type="text" placeholder={Placeholder} name={Name} />}
           </InputMask>
         ) : (
-          <input type={Type} placeholder={Placeholder} name={Name} />
+          <input type={Type} placeholder={Placeholder} name={Name} required/>
         )}
       </InputsContainer>
     </div>
