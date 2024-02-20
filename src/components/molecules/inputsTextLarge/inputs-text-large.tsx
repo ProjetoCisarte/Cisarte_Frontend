@@ -1,16 +1,18 @@
-import { InputsContainer } from "./inputsTextLarge.styles"
+import { InputsContainer } from "./inputs-text-large.styles"
 
 interface InputsTextLargeProps {
     NameLabel: string;
     Placeholder: string;
+    Type: string;
+    Name: string;
   }
 
-const InputsTextLarge = ({NameLabel, Placeholder}: InputsTextLargeProps) => {
+const InputsTextLarge = ({NameLabel, Placeholder, Type, Name}: InputsTextLargeProps) => {
     return(
         <div>
             <InputsContainer>
                 <label>{NameLabel}</label>
-                <input type="text" placeholder={Placeholder} />
+                <input type={Type} placeholder={Placeholder} name={Name} />
             </InputsContainer>
         </div>
     )

@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+interface ArticleProps{
+    align?:string
+}
+
+export const ConteinerArticle = styled.article<ArticleProps>`
+width: 55%;
+text-align: ${(props) =>props.align};
+`
+
 export const ArticleSubtitle = styled.h3`
 font-size: 1.3rem;
 font-weight: 700;
@@ -7,7 +16,8 @@ color: #126E30;
 `;
 
 export const ArticleTitle = styled.h2`
-font-size: 2.4rem;
+
+font-size: 2.2rem;
 font-weight: 800;
 color: #000;
 `;

@@ -1,5 +1,3 @@
-// button.tsx
-
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from '../text/themes';
@@ -8,14 +6,15 @@ interface ButtonProps {
   title: string;
   variant: 'primario' | 'secundario' | 'terciario';
   onClick?: () => void;
+  type?: 'button' | 'submit' | 'reset';
 }
 
 const StyledButton = styled.button<ButtonProps>`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 24px;
-  border-radius: 15px;
+  padding: 8px 36px;
+  border-radius: 24px;
   transition: 1s;
   background-color: ${({ theme, variant }) =>
     variant === 'primario'
@@ -62,10 +61,10 @@ const StyledButton = styled.button<ButtonProps>`
   }
 `;
 
-const Button: React.FC<ButtonProps> = ({ title, variant, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ title, variant, onClick, type }) => {
   return (
     <ThemeProvider theme={theme}>
-      <StyledButton variant={variant} onClick={onClick} title={title}>
+      <StyledButton variant={variant} onClick={onClick} title={title} type={type}>
         {title}
       </StyledButton>
     </ThemeProvider>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardConteiner = styled.div`
+export const CardConteiner = styled.aside`
 width: 22.4rem;
 height: 19rem;
 background-color: #fff;
@@ -13,6 +13,7 @@ border-radius: 10px;
 box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 gap: 1rem;
 padding: 10px;
+margin-bottom: 1.4rem;
 
 
 @media screen and (max-width:420px) {
@@ -40,6 +41,7 @@ p{
 
 &:hover{
     box-shadow: 0px 0px 14px 0px rgba(254,191,41);
+    transition: 0.6s;
 }
 `;
 
