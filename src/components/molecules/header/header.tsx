@@ -24,7 +24,11 @@ const Header = () => {
 
   const navigateToAboutUs = () => {
     navigate("/faleconosco");
-    };
+  };
+
+  const navigateToArtWorkshop = () => {
+    navigate("/oficinaDeArtes");
+  };
 
   return (
     <Navbar collapseOnSelect expand="lg" style={{"boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)" , "padding": "15px 0px"}}>
@@ -49,7 +53,9 @@ const Header = () => {
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link>Atividades</Nav.Link>
+                <Nav.Link onClick={navigateToArtWorkshop}>
+                  Atividades
+                </Nav.Link>
               </div>
               </Link>
               <Link>
