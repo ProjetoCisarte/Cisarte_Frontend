@@ -1,25 +1,23 @@
 import { Link } from "react-router-dom";
 import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer-styles";
-// import { Link } from "react-router-dom";
 
 const Footer = () => {
-    return(
-        <>
+    return (
         <footer>
             <LineYellow />
             <ContainerInformation>
                 <LogoFooter>
-                    <img src="/public/assets/icons/cisarte-logo.png" alt="Logo da Cisarte"></img>
+                    <img src="/assets/icons/cisarte-logo.png" alt="Logo da Cisarte" />
                 </LogoFooter>
                 <ContainerLinksFooter>
                     <LinksFooter>
                         <h3>Navegação</h3>
-                            <p>Quem somos</p>
-                            <Link to="/oficinaDeArtes">
+                        <p>Quem somos</p>
+                        <Link to="/oficinaDeArtes">
                             <p>Atividades</p>                      
-                            </Link>                       
-                            <p>Doação</p>                       
-                            <p>Seja um voluntário</p>
+                        </Link>                       
+                        <p>Doação</p>                       
+                        <p>Seja um voluntário</p>
                     </LinksFooter>
                     <LinksFooter>
                         <h3>Fale Conosco</h3>
@@ -33,9 +31,15 @@ const Footer = () => {
                             <p>projeto@cisarte.org.br</p>
                         </a>
                         <IconsFooter>
-                            <img src="public/assets/icons/logo-facebook.svg" alt="Ícone do Facebook preto" />
-                            <img src="public/assets/icons/logo-linkedin.svg" alt="Ícone do Linkedin preto" />
-                            <img src="public/assets/icons/logo-instagram.svg" alt="Ícone do Instagram preto" />
+                            <a href="https://web.facebook.com/cisarteSP" target="_blank">
+                                <img src="/assets/icons/logo-facebook.svg" alt="Ícone do Facebook preto" />
+                            </a>
+                            <a href="https://www.linkedin.com/company/cisarte/" target="_blank">
+                                <img src="/assets/icons/logo-linkedin.svg" alt="Ícone do Linkedin preto" />
+                            </a>
+                            <a href="https://www.instagram.com/cisarte.rua/" target="_blank">
+                                <img src="/assets/icons/logo-instagram.svg" alt="Ícone do Instagram preto" />
+                            </a>
                         </IconsFooter>
                     </LinksFooter>
                 </ContainerLinksFooter>
@@ -46,8 +50,7 @@ const Footer = () => {
                 <p>Cisarte© 2024.</p>
             </FinalFooter>
         </footer>
-        </>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

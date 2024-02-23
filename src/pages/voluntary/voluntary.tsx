@@ -6,33 +6,11 @@ import InputsTextarea from "../../components/molecules/inputsTextarea/inputs-tex
 import Button from "../../components/atoms/button/button";
 import CardsVolunteers from "../../components/molecules/cardsVolunteers/cards-volunteers";
 import Footer from "../../components/molecules/footer/footer";
-import { ContainerCards, ContainerForms, ContainerVonlunteersCards, TitleAndText } from "./voluntary-styles";
-import { useRef } from "react";
-import emailjs from 'emailjs-com';
+import FormStructure from "../../components/organisms/formStructure/form-structure";
+import { ContainerCards, ContainerVonlunteersCards, TitleAndText } from "./voluntary-styles";
 
 
 const Voluntary = () => {
-
-  const ref = useRef<HTMLFormElement | null>(null);
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
-    try {
-      if (ref.current) {
-        const result = await emailjs.sendForm(
-          'service_da_cisarte',
-          'template_da_cisarte',
-          ref.current,
-          'user_da_cisarte'
-        );
-        
-        console.log(result.text);
-      }
-    } catch (error) {
-      console.error((error as { text?: string })?.text || 'Erro desconhecido ao enviar a mensagem.');
-    }
-  };
   
     return(
         <>
@@ -40,7 +18,7 @@ const Voluntary = () => {
 
             <Header />
 
-            <Banner img="/public/assets/background/volunteer-fund.jpg" description="VOLUNTARIADO"/>
+            <Banner img="/public/assets/background/volunteer-fund.jpg" description="Voluntariado"/>
 
             <TitleAndText>
                 <h5>Faça parte da mudança</h5>
@@ -59,9 +37,7 @@ const Voluntary = () => {
             <CardKnow icon="" alt="" title="Programa de estágio" text="Contribua com habilidades administrativas, auxiliando nos atendimentos, organização de documentos, coordenação de eventos ou realizando tarefas de escritório" showButton={false} />
             </ContainerCards>
 
-            <ContainerForms>
-                <h2>Quero ser voluntário</h2>
-                <form ref={ref} onSubmit={handleSubmit}>
+            <FormStructure title="Quero ser voluntário" templateId="template_qrkbpc9">
                     <InputsTextLarge Type="text" NameLabel="Nome" Placeholder="Digite seu nome" Name="name"/>
                     <InputsTextLarge Type="email" NameLabel="Email" Placeholder="Digite seu email" Name="email"/>
                     <InputsTextLarge Type="number" NameLabel="Telefone" Placeholder="Ex: (00) 00000-0000" Name="numero"/>
@@ -69,8 +45,7 @@ const Voluntary = () => {
                     <InputsTextLarge Type="text" NameLabel="Qual voluntariado você gostaria de participar?" Placeholder="Digite o nome do voluntariado" Name="voluntariado"/>
                     <InputsTextarea NameLabel="Mensagem" Placeholder="Digite a sua mensagem" Name="message" />
                     <Button title="ENVIAR" variant="primario" type="submit"/>
-                </form>
-            </ContainerForms>
+            </FormStructure>
 
             <TitleAndText>
                 <h2>Conheça os voluntários que realizaram a construção do site e plataforma</h2>

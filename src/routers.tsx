@@ -4,6 +4,7 @@ import ArtWorkshop from "./pages/artWorkshop/art-workshop";
 import WellnessAndHealthWorkshop from "./pages/wellnessAndHealthWorkshop/wellness-and-health-workshop";
 import ServiceWorkshops from "./pages/serviceWorkshops/service-workshops";
 import LanguageWorkshops from "./pages/languageWorkshops/language-workshops";
+import ContactUs from "./pages/contactUs/contact-us";
 
 function RouterApp() {
 
@@ -16,6 +17,7 @@ function RouterApp() {
           <Route path="/oficinaBemEstareSaude" element={<WellnessAndHealthWorkshop />}></Route>
           <Route path="/oficinaServicos" element={<ServiceWorkshops />}></Route>
           <Route path="/oficinaLinguas" element={<LanguageWorkshops />}></Route> 
+          <Route path="/faleconosco" element={<ContactUs />}></Route>
         </Routes>
       </Router>
   
