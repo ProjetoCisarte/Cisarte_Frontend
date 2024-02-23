@@ -5,7 +5,8 @@ interface ArticleProps{
 }
 
 export const ConteinerArticle = styled.article<ArticleProps>`
-width: 55%;
+width: 100%;
+padding: 1rem 0;
 text-align: ${(props) =>props.align};
 `
 

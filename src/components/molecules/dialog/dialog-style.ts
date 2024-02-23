@@ -12,6 +12,7 @@ export const DialogArticle = styled.article`
   align-items: center;
   border-radius: 20px;
   position: relative;
+  padding: 2rem 0;
 `;
 
 
