@@ -1,8 +1,13 @@
-import { Link } from "react-router-dom";
-import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer-styles";
 
-const Footer = () => {
-    return (
+import Logo from "/public/assets/icons/cisarte-logo.svg";
+import LogoFacebook from "/public/assets/icons/logo-facebook.svg";
+import LogoInstagram from "/public/assets/icons/logo-instagram.svg";
+import LogoLinkedin from "/public/assets/icons/logo-linkedin.svg";
+import { ContainerInformation, ContainerLinksFooter, LinksFooter, LogoFooter, IconsFooter, SpanFooter, FinalFooter, LineYellow } from "./footer-styles";
+import { Link } from "react-router-dom";
+
+export const Footer = () => {
+    return(
         <footer>
             <LineYellow />
             <ContainerInformation>
@@ -50,7 +55,6 @@ const Footer = () => {
                 <p>Cisarte© 2024.</p>
             </FinalFooter>
         </footer>
-    );
-};
+    )
+}
 
-export default Footer;

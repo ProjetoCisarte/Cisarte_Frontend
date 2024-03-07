@@ -6,7 +6,6 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  background-color: red;
 `;
 
 export const Link = styled.div`
@@ -14,7 +13,7 @@ export const Link = styled.div`
     font-size: 16px;
     font-weight: bold;
     position: relative;
-    padding: 0 10px;
+    padding: 0px;
 
     &:after {
         content: " ";

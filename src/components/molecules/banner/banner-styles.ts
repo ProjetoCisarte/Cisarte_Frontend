@@ -33,6 +33,7 @@ text-transform: uppercase;
 
 
 @media screen and (max-width:670px) {
-        font-size: 2rem;
+    width:80%;
+    font-size: 2rem;
     }
 `
