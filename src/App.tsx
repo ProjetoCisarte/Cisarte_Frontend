@@ -1,12 +1,15 @@
-import{ Home} from "./pages/home/home"
-import { AboutUs } from "./pages/aboutUs/about"
-import { Donation } from "./pages/donation/donation"
+
+import { ThemeProvider } from 'styled-components'
+import RouterApp from './routers'
+import { theme } from './components/atoms/text/themes'
 
 function App() {
 
   return (
     <>
-  <Home/>
+    <ThemeProvider theme={theme}>
+      <RouterApp />
+      </ThemeProvider>
     </>
   )
 }

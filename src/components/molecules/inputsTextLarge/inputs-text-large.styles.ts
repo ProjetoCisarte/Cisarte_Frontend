@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const InputsContainer = styled.div`
     display: flex;
     flex-direction: column;
+    padding: 0.5rem 0px;
 
     label {
         font-weight: bold;

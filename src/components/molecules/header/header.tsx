@@ -4,8 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "./header-styles";
 import Logo from "/public/assets/icons/cisarte-logo.svg";
-import { createGlobalStyle, } from 'styled-components'
-
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
 
@@ -17,11 +16,25 @@ const Header = () => {
   }
 `;
 
+  const navigate = useNavigate();
+
+  const navigateToVolunteers = () => {
+  navigate("/voluntariado");
+  };
+
+  const navigateToAboutUs = () => {
+    navigate("/faleconosco");
+  };
+
+  const navigateToArtWorkshop = () => {
+    navigate("/oficinaDeArtes");
+  };
+
   return (
     <Navbar collapseOnSelect expand="lg" style={{"boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)" , "padding": "15px 0px"}}>
       <GlobalStyle />
         <Container>
-        <img src={Logo} alt="Logo da Cisarte"></img>
+        <img src="/public/assets/icons/cisarte-logo.png" alt="Logo da Cisarte"></img>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             id="responsive-navbar-nav"
@@ -30,32 +43,38 @@ const Header = () => {
             <Nav>
               <Link>
               <div className="mx-3">
-                <Nav.Link href="#">Home</Nav.Link>
+                <Nav.Link>Home</Nav.Link>
               </div>
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link href="#">Quem somos</Nav.Link>
+                <Nav.Link>Quem somos</Nav.Link>
               </div>
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link href="#">Atividades</Nav.Link>
+                <Nav.Link onClick={navigateToArtWorkshop}>
+                  Atividades
+                </Nav.Link>
               </div>
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link href="#">Doação</Nav.Link>
+                <Nav.Link>Doação</Nav.Link>
               </div>
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link href="#">Voluntários</Nav.Link>
+                <Nav.Link onClick={navigateToVolunteers}>
+                  Voluntários
+                </Nav.Link>
               </div>
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link href="#">Contato</Nav.Link>
+                <Nav.Link onClick={navigateToAboutUs}>
+                  Contato
+                </Nav.Link>
               </div>
               </Link>
             </Nav>

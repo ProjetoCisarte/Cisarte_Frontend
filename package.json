@@ -13,9 +13,11 @@
     "@djpfs/react-vlibras": "^2.0.2",
     "@types/react-bootstrap": "^0.32.35",
     "bootstrap": "^5.3.2",
+    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
     "react-router-dom": "^6.22.0",
     "styled-components": "^6.1.8"
   },
