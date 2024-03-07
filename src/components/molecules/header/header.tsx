@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "./header-styles";
-import Logo from "/public/assets/icons/cisarte-logo.png";
-import { createGlobalStyle } from 'styled-components'
+import Logo from "/public/assets/icons/cisarte-logo.svg";
+import { createGlobalStyle, } from 'styled-components'
 
 
 const Header = () => {

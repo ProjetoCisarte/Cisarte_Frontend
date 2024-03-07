@@ -17,10 +17,15 @@ justify-content: center;
 align-items: center;
 cursor: pointer;
 
+
+@media screen and (max-width:430px) {
+   width: 10rem;
+   height: 10rem;
+}
 `
 
 export const TextDescription = styled.h4`
-font-size: 1.8rem;
+font-size: 1.5rem;
 color: #fff;
 width: 60%;
 text-align: center;
@@ -29,4 +34,17 @@ font-weight: 700;
 border: 4px solid #fff;
 border-left:none ;
 border-right: none;
+
+&:hover{
+   color: #FEBF29;
+   border: 4px solid #FEBF29;
+   transition: 0.6s;
+   border-left:none ;
+   border-right: none;
+}
+
+@media screen and (max-width:430px) {
+   font-size: 1rem;
+   width: 80%;
+}
 `

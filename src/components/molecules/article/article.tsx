@@ -2,8 +2,8 @@ import {ConteinerArticle, ArticleParagraph, ArticleSubtitle, ArticleTitle } from
 
 interface ArticleTemplateProps{
     title:string,
-    subtitle:string,
-    paragraph:string,
+    subtitle?:string,
+    paragraph?:string,
     textAlign?:string
 }
 
