@@ -1,3 +1,10 @@
+# Front-End Cisarte 💚
+
+<div align="center">
+<img src="https://i.imgur.com/GLt2In4.png" width="800px" />
+</div>
+<br/>
+
 <h2> 🔍 Pré requisitos:</h2>
    <p>
       Antes de começar, verifique se você atende aos seguintes requisitos:
@@ -9,7 +16,7 @@
 
 <h2> ⚙️ Nossos padrões:</h2>
    <p>
-      Em nossos padrões, adotamos a prática de fazer toda a nossa estruturação de pastas, nossos componentes, classes e commits em inglês, para seguir de acordo com os padrões de mercado.
+      Em nossos padrões, adotamos a prática de fazer toda a nossa estruturação de pastas, nossos componentes, classes e commits em inglês, para seguir de acordo com os padrões de mercado. Além disso, a organização da estrutura de pastas em "components" adota o padrão TOAM, que segmenta os componentes front-end em categorias distintas, promovendo uma arquitetura modular. Seguimos esse padrão para proporcionar clareza na organização, reutilização eficiente,  manutenção facilitada e escalabilidade.
    </p>
 <br/>
 
@@ -44,7 +51,7 @@ npm run dev
 ```
 <br/>
 
-<h2>🤝🏾 Equipe de desenvolvimento:</h2>
+<h2>💛 Equipe de desenvolvimento:</h2>
 
 <table>
   <tr>
