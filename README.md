@@ -16,7 +16,7 @@
 
 <h2> ⚙️ Nossos padrões:</h2>
    <p>
-      Em nossos padrões, adotamos a prática de fazer toda a nossa estruturação de pastas, nossos componentes, classes e commits em inglês, para seguir de acordo com os padrões de mercado. Além disso, a organização da estrutura de pastas em "components" adota o padrão TOAM, que segmenta os componentes front-end em categorias distintas, promovendo uma arquitetura modular. Seguimos esse padrão para proporcionar clareza na organização, reutilização eficiente,  manutenção facilitada e escalabilidade.
+      Em nossos padrões, adotamos a prática de fazer toda a nossa estruturação de pastas, nossos componentes, classes e commits em inglês, para seguir de acordo com os padrões de mercado. Além disso, a organização da estrutura de pastas em "components" adota o padrão que utiliza templates, organismos, móleculas e átomos, que segmenta os componentes front-end em categorias distintas, promovendo uma arquitetura modular. Seguimos esse padrão para proporcionar clareza na organização, reutilização eficiente,  manutenção facilitada e escalabilidade.
    </p>
 <br/>
 
@@ -90,3 +90,24 @@ npm run dev
   </tr>
 </table>
 <br/>
+
+## Redes sociais Cisarte:
+
+Fique por dentro das últimas novidades e atualizações e acompanhe nosso trabalho:
+
+- Linkedin [Linkedin Cisarte](https://www.linkedin.com/company/afroglow2023/)
+- Instagram: [@cisarte.rua_](https://www.instagram.com/cisarte.rua/)
+- Facebook: [@cisarte_](https://web.facebook.com/profile.php?id=100066856611948)
+
+<hr>
+
+<div>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Typescript-20232A?style=for-the-badge&logo=react&logoColor=008F8C" />
+<img src="https://img.shields.io/badge/Styled_Components-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
+
+![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+</div>
