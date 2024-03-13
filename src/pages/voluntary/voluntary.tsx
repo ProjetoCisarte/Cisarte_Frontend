@@ -5,9 +5,9 @@ import InputsTextLarge from "../../components/molecules/inputsTextLarge/inputs-t
 import InputsTextarea from "../../components/molecules/inputsTextarea/inputs-textarea";
 import Button from "../../components/atoms/button/button";
 import CardsVolunteers from "../../components/molecules/cardsVolunteers/cards-volunteers";
-import Footer from "../../components/molecules/footer/footer";
 import FormStructure from "../../components/organisms/formStructure/form-structure";
 import { ContainerCards, ContainerVonlunteersCards, TitleAndText } from "./voluntary-styles";
+import Footer from "../../components/molecules/footer/footer";
 
 
 const Voluntary = () => {

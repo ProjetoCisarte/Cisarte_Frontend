@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "./header-styles";
-import Logo from "/public/assets/icons/cisarte-logo.svg";
 import { useNavigate } from 'react-router-dom';
+import { createGlobalStyle } from "styled-components";
 
 const Header = () => {
 
@@ -18,23 +18,35 @@ const Header = () => {
 
   const navigate = useNavigate();
 
+  
+  const navigateToHome = () => {
+    navigate("/");
+  };                           
+  
+  const navigateToAboutUs = () => {
+    navigate("/sobre-nos");
+  };                           
+  const navigateToDonation = () => {
+    navigate("/doacao");
+  };                           
+  
   const navigateToVolunteers = () => {
   navigate("/voluntariado");
   };
 
-  const navigateToAboutUs = () => {
+  const navigateToContactUs = () => {
     navigate("/faleconosco");
   };
 
   const navigateToArtWorkshop = () => {
     navigate("/oficinaDeArtes");
-  };
+  };              
 
   return (
     <Navbar collapseOnSelect expand="lg" style={{"boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)" , "padding": "15px 0px"}}>
       <GlobalStyle />
         <Container>
-        <img src="/public/assets/icons/cisarte-logo.png" alt="Logo da Cisarte"></img>
+        <img src="/public/assets/icons/cisarte-logo.svg" alt="Logo da Cisarte"></img>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             id="responsive-navbar-nav"
@@ -42,12 +54,12 @@ const Header = () => {
           >
             <Nav>
               <Link>
-              <div className="mx-3">
+              <div className="mx-3" onClick={navigateToHome}>
                 <Nav.Link>Home</Nav.Link>
               </div>
               </Link>
               <Link>
-              <div className="mx-3">
+              <div className="mx-3" onClick={navigateToAboutUs}>
                 <Nav.Link>Quem somos</Nav.Link>
               </div>
               </Link>
@@ -59,7 +71,7 @@ const Header = () => {
               </div>
               </Link>
               <Link>
-              <div className="mx-3">
+              <div className="mx-3" onClick={navigateToDonation}>
                 <Nav.Link>Doação</Nav.Link>
               </div>
               </Link>
@@ -72,7 +84,7 @@ const Header = () => {
               </Link>
               <Link>
               <div className="mx-3">
-                <Nav.Link onClick={navigateToAboutUs}>
+                <Nav.Link onClick={navigateToContactUs}>
                   Contato
                 </Nav.Link>
               </div>

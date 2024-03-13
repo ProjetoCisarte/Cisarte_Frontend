@@ -1,5 +1,5 @@
 import { CardKnow } from "../../molecules/cards/cards";
-import { CardsBar } from "./card-home";
+import { CardsBar } from "./card-home-styles";
 
 export const CardsHome = () =>{
 
