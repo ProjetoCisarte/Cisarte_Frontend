@@ -1,4 +1,4 @@
-import { WorkshopCard } from "../../molecules/workshopCard/worksho-card";
+import { WorkshopCard } from "../../molecules/workshopCard/workshop-card";
 import { WsConteinerCard } from "./home-card-styles";
 
 
@@ -13,7 +13,7 @@ export const WsCardHome = () => {
         },
         {
             description: "Oficinas de Bem-Estar e Saúde",
-            img: "/public/assets/imgs/oficina-bem.png"
+            img: "/public/assets/imgs/bem-estar-e-saude.png"
 
         },
         {
@@ -34,7 +34,7 @@ export const WsCardHome = () => {
         <WsConteinerCard>
             {cards.map((cards, index) => {
                 return (
-                    <WorkshopCard description={cards.description} img={cards.img} key={index} />
+                    <WorkshopCard  description={cards.description} img={cards.img} key={index} navigateDesk={""} />
                 )
             }
             )}

@@ -1,5 +1,5 @@
 import Header from "../../components/molecules/header/header"
-import { Footer } from "../../components/molecules/footer/footer"
+import  Footer from "../../components/molecules/footer/footer"
 import { Banner } from "../../components/molecules/banner/banner"
 import { Article } from "../../components/molecules/article/article"
 import { ListAboutUs } from "./components/orgarnism/list-about"

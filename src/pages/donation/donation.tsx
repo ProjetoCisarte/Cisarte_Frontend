@@ -1,5 +1,5 @@
 import Header from "../../components/molecules/header/header";
-import { Footer } from "../../components/molecules/footer/footer";
+import Footer from "../../components/molecules/footer/footer";
 import { Article } from "../../components/molecules/article/article";
 import { Banner } from "../../components/molecules/banner/banner";
 import Button from "../../components/atoms/button/button";

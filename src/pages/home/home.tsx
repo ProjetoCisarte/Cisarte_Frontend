@@ -3,8 +3,8 @@ import Header from "../../components/molecules/header/header"
 import { CardsHome } from "../../components/organisms/homeCards/cards-home"
 import Button from "../../components/atoms/button/button"
 import { WsCardHome } from "../../components/organisms/worshopsHome/home-card"
+import Footer from "../../components/molecules/footer/footer"
 import { IntroductionHome, CardVideo, ContainerMain, IntroductionText, ContainerVoluntary, VoluntaryArticle, ContainerArticle, DonationArticle, WsContainer } from "./home-styles"
-import { Footer } from "../../components/molecules/footer/footer"
 
 export const Home = () =>{
 
